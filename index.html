@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gartec – Ludomètre FTv3 | Contrôle des Aires de Jeux</title>
+  <meta name="description" content="Gartec conçoit le Ludomètre FTv3, l'instrument de référence pour le contrôle de la conformité des sols d'aires de jeux selon la norme EN1177:2018."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <span>📞 +33 6 70 81 14 21</span>
+    <span>✉️ commerce@gartec.fr</span>
+    <div class="lang-switcher">
+      <a href="#" class="active">FR</a>
+      <a href="#">EN</a>
+      <a href="#">ES</a>
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="https://www.gartec.fr/wp-content/uploads/2018/10/LogoGartec2018.png" alt="Gartec" onerror="this.style.display='none'; this.nextSibling.style.display='flex'"/>
+      <span class="logo-fallback" style="display:none">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">GARTEC</span>
+      </span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#produit">Ludomètre FTv3</a></li>
+      <li><a href="#logiciel">Gartec Connect</a></li>
+      <li><a href="#ludogab">LudoGab</a></li>
+      <li><a href="#offres">Nos Offres</a></li>
+      <li><a href="#normes">Normes</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary nav-cta">Demander un devis</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#produit">Ludomètre FTv3</a>
+    <a href="#logiciel">Gartec Connect</a>
+    <a href="#ludogab">LudoGab</a>
+    <a href="#offres">Nos Offres</a>
+    <a href="#normes">Normes</a>
+    <a href="#contact" class="btn btn-primary">Demander un devis</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="accueil">
+  <div class="hero-bg"></div>
+  <div class="hero-particles" id="particles"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      Norme EN1177:2018 & XP S54-215
+    </div>
+    <h1 class="hero-title">
+      L'instrument de<br/>
+      <span class="gradient-text">référence mondial</span><br/>
+      pour vos aires de jeux
+    </h1>
+    <p class="hero-subtitle">
+      Le <strong>Ludomètre FTv3</strong> — dernière génération d'équipement de contrôle de la conformité des sols d'aires de jeux. Précision absolue, connectivité totale.
+    </p>
+    <div class="hero-actions">
+      <a href="#produit" class="btn btn-primary btn-lg">Découvrir le FTv3</a>
+      <a href="#logiciel" class="btn btn-outline btn-lg">Voir Gartec Connect</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-value">23,43<small>kHz</small></span>
+        <span class="stat-label">Fréquence d'acquisition</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-value">IP65</span>
+        <span class="stat-label">Étanchéité certifiée</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-value">20<small>h</small></span>
+        <span class="stat-label">Autonomie batterie</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-value">3 ans</span>
+        <span class="stat-label">Gartec Connect offert</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="device-glow"></div>
+    <div class="device-ring ring1"></div>
+    <div class="device-ring ring2"></div>
+    <div class="device-img-wrap">
+      <img src="https://www.gartec.fr/wp-content/uploads/2019/04/ludometre-scaled.jpg" alt="Ludomètre FTv3" onerror="this.src=''; this.parentElement.innerHTML='<div class=device-placeholder><span>◈</span><p>Ludomètre FTv3</p></div>'"/>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- SECTION: PRODUIT -->
+<section class="section" id="produit">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Le Produit</span>
+      <h2>Ludomètre <span class="gradient-text">FTv3</span></h2>
+      <p>La troisième génération de Ludomètre, conçue pour répondre aux dernières exigences normatives et aux besoins terrain des contrôleurs professionnels.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card" data-index="0">
+        <div class="feature-icon">⚡</div>
+        <h3>Accéléromètre triaxial</h3>
+        <p>Technologie piezorésistive. Mesures sans parasites en courant continu pour une précision maximale.</p>
+      </div>
+      <div class="feature-card" data-index="1">
+        <div class="feature-icon">📡</div>
+        <h3>Bluetooth 4.1</h3>
+        <p>Connexion sans fil à l'application Gartec Connect. Transfert instantané des données de mesure.</p>
+      </div>
+      <div class="feature-card" data-index="2">
+        <div class="feature-icon">💧</div>
+        <h3>Étanche IP65</h3>
+        <p>Utilisable sous toutes conditions météorologiques. Résiste à la pluie, à la poussière et aux chocs.</p>
+      </div>
+      <div class="feature-card" data-index="3">
+        <div class="feature-icon">🛡️</div>
+        <h3>Robustesse certifiée</h3>
+        <p>Résiste à un impact de 500g. Conçu pour les conditions les plus exigeantes du terrain.</p>
+      </div>
+      <div class="feature-card" data-index="4">
+        <div class="feature-icon">🔋</div>
+        <h3>Autonomie 20h</h3>
+        <p>Chargeur intelligent embarqué. Une journée complète de travail sans interruption.</p>
+      </div>
+      <div class="feature-card" data-index="5">
+        <div class="feature-icon">📋</div>
+        <h3>Norme EN1177 & XP S54-215</h3>
+        <p>Conformité complète aux dernières versions. Évolutif pour accompagner les futures normes.</p>
+      </div>
+    </div>
+
+    <div class="product-detail">
+      <div class="product-image-wrap">
+        <div class="img-glow"></div>
+        <img src="https://www.gartec.fr/wp-content/uploads/2019/04/ludometre-scaled.jpg" alt="Ludomètre FTv3 détail" class="product-img" onerror="this.parentElement.innerHTML='<div class=product-placeholder><span>◈</span></div>'"/>
+        <div class="img-badge">FTv3</div>
+      </div>
+      <div class="product-info">
+        <h3>Pourquoi le FTv3 ?</h3>
+        <p>Gartec a été fondé dans le but de concevoir un équipement permettant de contrôler la bonne conformité d'une installation récréative équipée de sols amortissants conformément à la norme EN1177.</p>
+        <p>Le Ludomètre FTv3 représente l'aboutissement de cette vision : un outil de précision professionnelle, connecté et évolutif.</p>
+        <ul class="check-list">
+          <li>Valise de transport incluse</li>
+          <li>Certificat de conformité EN1177:2018 & XP S54-215</li>
+          <li>3 ans d'accès Gartec Connect offerts</li>
+          <li>Garantie matériel 2 ans</li>
+          <li>Mise à jour FTv2 disponible</li>
+        </ul>
+        <a href="#offres" class="btn btn-primary">Voir les offres</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: GARTEC CONNECT -->
+<section class="section section-dark" id="logiciel">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-tag">Logiciel Cloud</span>
+      <h2>Gartec <span class="gradient-text">Connect</span></h2>
+      <p>La plateforme en ligne qui centralise toutes vos données de mesure, génère vos rapports et assure le suivi de vos équipements.</p>
+    </div>
+    <div class="software-showcase">
+      <div class="software-features">
+        <div class="sw-item">
+          <div class="sw-icon">☁️</div>
+          <div>
+            <h4>Stockage cloud sécurisé</h4>
+            <p>Toutes vos mesures archivées et accessibles depuis n'importe quel appareil.</p>
+          </div>
+        </div>
+        <div class="sw-item">
+          <div class="sw-icon">📊</div>
+          <div>
+            <h4>Rapports automatisés</h4>
+            <p>Génération de rapports de conformité au format PDF en un clic.</p>
+          </div>
+        </div>
+        <div class="sw-item">
+          <div class="sw-icon">🔔</div>
+          <div>
+            <h4>Alertes de conformité</h4>
+            <p>Notifications automatiques lorsque des zones ne sont plus conformes à la norme.</p>
+          </div>
+        </div>
+        <div class="sw-item">
+          <div class="sw-icon">🗺️</div>
+          <div>
+            <h4>Cartographie des sites</h4>
+            <p>Visualisation géographique de tous vos sites contrôlés.</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary" style="margin-top:1rem">Accéder à Gartec Connect</a>
+      </div>
+      <div class="software-screen">
+        <div class="screen-frame">
+          <div class="screen-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="screen-url">app.gartec.fr</span>
+          </div>
+          <div class="screen-content">
+            <div class="app-sidebar">
+              <div class="app-nav-item active">📊 Tableau de bord</div>
+              <div class="app-nav-item">📍 Mes sites</div>
+              <div class="app-nav-item">📋 Rapports</div>
+              <div class="app-nav-item">⚙️ Paramètres</div>
+            </div>
+            <div class="app-main">
+              <div class="app-header-bar">Tableau de bord – Q1 2026</div>
+              <div class="app-stats-row">
+                <div class="app-stat-card">
+                  <div class="asc-value" style="color:#1A7FC1">47</div>
+                  <div class="asc-label">Sites contrôlés</div>
+                </div>
+                <div class="app-stat-card">
+                  <div class="asc-value" style="color:#22c55e">38</div>
+                  <div class="asc-label">Conformes</div>
+                </div>
+                <div class="app-stat-card">
+                  <div class="asc-value" style="color:#f59e0b">9</div>
+                  <div class="asc-label">À surveiller</div>
+                </div>
+              </div>
+              <div class="app-chart">
+                <div class="chart-bar" style="height:60%; background: linear-gradient(to top, #1A7FC1, #5EA3D6)"></div>
+                <div class="chart-bar" style="height:80%; background: linear-gradient(to top, #1A7FC1, #5EA3D6)"></div>
+                <div class="chart-bar" style="height:45%; background: linear-gradient(to top, #1A7FC1, #5EA3D6)"></div>
+                <div class="chart-bar" style="height:90%; background: linear-gradient(to top, #1A7FC1, #5EA3D6)"></div>
+                <div class="chart-bar" style="height:70%; background: linear-gradient(to top, #1A7FC1, #5EA3D6)"></div>
+                <div class="chart-bar" style="height:55%; background: linear-gradient(to top, #1A7FC1, #5EA3D6)"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: LUDOGAB -->
+<section class="section" id="ludogab">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Accessoires</span>
+      <h2>Ludo<span class="gradient-text">Gab</span></h2>
+      <p>Une gamme complète de gabarits professionnels pour le contrôle des aires de jeux selon la norme EN1176:2017.</p>
+    </div>
+    <div class="ludogab-grid">
+      <div class="ludogab-card">
+        <div class="lc-number">01</div>
+        <h4>Gabarits d'écartement</h4>
+        <p>Jeu complet de gabarits pour mesurer les espaces de piégeage et d'entrapment conformément à la norme EN1176.</p>
+        <span class="lc-tag">EN1176:2017</span>
+      </div>
+      <div class="ludogab-card featured">
+        <div class="lc-number">02</div>
+        <h4>Valise LudoGab complète</h4>
+        <p>La solution tout-en-un : l'ensemble des gabarits nécessaires pour un contrôle de conformité complet sur site.</p>
+        <span class="lc-tag">Recommandé</span>
+      </div>
+      <div class="ludogab-card">
+        <div class="lc-number">03</div>
+        <h4>Accessoires de mesure</h4>
+        <p>Thermomètre, hygromètre, télémètre et mètre ruban 3m. Tout ce qu'il faut pour une intervention complète.</p>
+        <span class="lc-tag">EN1176 & EN1177</span>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:2rem">
+      <a href="#contact" class="btn btn-outline">En savoir plus sur LudoGab</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: OFFRES -->
+<section class="section section-alt" id="offres">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Tarification</span>
+      <h2>Nos <span class="gradient-text">Offres</span></h2>
+      <p>Choisissez le pack adapté à votre activité. Toutes nos offres incluent l'accès à Gartec Connect.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>Pack Essentiel</h3>
+          <div class="pricing-tag">Démarrage</div>
+        </div>
+        <ul class="pricing-list">
+          <li>✓ Ludomètre FTv3</li>
+          <li>✓ Valise de transport</li>
+          <li>✓ Certificat de conformité EN1177:2018</li>
+          <li>✓ 3 ans Gartec Connect (licence de base)</li>
+          <li>✓ Garantie matériel 2 ans</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-full">Demander un devis</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Populaire</div>
+        <div class="pricing-header">
+          <h3>Pack Avancé</h3>
+          <div class="pricing-tag">Professionnel</div>
+        </div>
+        <ul class="pricing-list">
+          <li>✓ Ludomètre FTv3</li>
+          <li>✓ Valise de transport</li>
+          <li>✓ Certificat de conformité EN1177:2018 & XP S54-215</li>
+          <li>✓ 3 ans Gartec Connect (licence de base)</li>
+          <li>✓ 1 trépied standard</li>
+          <li>✓ Garantie matériel 2 ans</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-full">Demander un devis</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-header">
+          <h3>Pack Expert</h3>
+          <div class="pricing-tag">Complet</div>
+        </div>
+        <ul class="pricing-list">
+          <li>✓ Ludomètre FTv3</li>
+          <li>✓ Valise de transport</li>
+          <li>✓ Certificat de conformité EN1177:2018 & XP S54-215</li>
+          <li>✓ 3 ans Gartec Connect</li>
+          <li>✓ 1 trépied Advence (plus stable)</li>
+          <li>✓ Kit accessoires complet</li>
+          <li>✓ Valise LudoGab EN1176</li>
+          <li>✓ Garantie matériel 2 ans</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-full">Demander un devis</a>
+      </div>
+    </div>
+    <div class="upgrade-banner">
+      <div class="upgrade-icon">🔄</div>
+      <div>
+        <h4>Vous possédez un Ludomètre FTv2 ?</h4>
+        <p>Gartec propose une mise à jour vers le FTv3. Contactez-nous pour découvrir les options de migration.</p>
+      </div>
+      <a href="#contact" class="btn btn-primary">Mise à jour FTv2 → FTv3</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: NORMES -->
+<section class="section section-dark" id="normes">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-tag">Réglementation</span>
+      <h2>Conformité aux <span class="gradient-text">Normes</span></h2>
+      <p>Le Ludomètre FTv3 est conçu et certifié pour répondre aux exigences des normes françaises et européennes en vigueur.</p>
+    </div>
+    <div class="normes-grid">
+      <div class="norme-card">
+        <div class="norme-icon">🇪🇺</div>
+        <h4>EN1177:2018</h4>
+        <p>Revêtements de surfaces d'aires de jeux absorbant les chocs — Méthodes d'essai pour déterminer l'atténuation des chocs.</p>
+        <div class="norme-status compliant">Conforme ✓</div>
+      </div>
+      <div class="norme-card">
+        <div class="norme-icon">🇫🇷</div>
+        <h4>XP S54-215</h4>
+        <p>Norme française relative aux méthodes d'essai et exigences de performance pour les revêtements des aires de jeux.</p>
+        <div class="norme-status compliant">Conforme ✓</div>
+      </div>
+      <div class="norme-card">
+        <div class="norme-icon">🛝</div>
+        <h4>EN1176:2017</h4>
+        <p>Équipements d'aires de jeux et revêtements de sol — Exigences générales de sécurité et méthodes d'essai.</p>
+        <div class="norme-status compatible">Compatible ✓</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION: CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Contact</span>
+      <h2>Parlons de votre <span class="gradient-text">projet</span></h2>
+      <p>Notre équipe est disponible pour vous accompagner dans le choix de votre équipement et répondre à toutes vos questions.</p>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <h4>Téléphone</h4>
+            <a href="tel:+33670811421">+33 6 70 81 14 21</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:commerce@gartec.fr">commerce@gartec.fr</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">🌐</div>
+          <div>
+            <h4>Site web</h4>
+            <a href="https://www.gartec.fr">www.gartec.fr</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ci-icon">🗺️</div>
+          <div>
+            <h4>Adresse</h4>
+            <p>France</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nom complet *</label>
+            <input type="text" id="name" name="name" placeholder="Jean Dupont" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="jean@exemple.fr" required/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+33 6 00 00 00 00"/>
+          </div>
+          <div class="form-group">
+            <label for="subject">Objet *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Sélectionnez...</option>
+              <option>Demande de devis – Ludomètre FTv3</option>
+              <option>Mise à jour FTv2 → FTv3</option>
+              <option>Gartec Connect</option>
+              <option>LudoGab</option>
+              <option>Support technique</option>
+              <option>Autre</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" placeholder="Décrivez votre besoin..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Envoyer le message →</button>
+        <div class="form-success" id="formSuccess">✅ Message envoyé ! Nous vous répondrons dans les plus brefs délais.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-text">◈ GARTEC</span>
+      <p>L'instrument de référence pour le contrôle des aires de jeux. Conformité EN1177:2018 & XP S54-215.</p>
+    </div>
+    <div class="footer-links">
+      <h5>Navigation</h5>
+      <a href="#produit">Ludomètre FTv3</a>
+      <a href="#logiciel">Gartec Connect</a>
+      <a href="#ludogab">LudoGab</a>
+      <a href="#offres">Nos Offres</a>
+      <a href="#normes">Normes</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-links">
+      <h5>Contact</h5>
+      <a href="tel:+33670811421">+33 6 70 81 14 21</a>
+      <a href="mailto:commerce@gartec.fr">commerce@gartec.fr</a>
+    </div>
+    <div class="footer-links">
+      <h5>Langues</h5>
+      <a href="#">Français</a>
+      <a href="#">English</a>
+      <a href="#">Español</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Gartec. Tous droits réservés.</p>
+    <p>Mentions légales · Politique de confidentialité</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
