@@ -538,6 +538,27 @@ body {
   display: none;
 }
 
+.hero-scroll-hint {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  margin-left: -0.5rem;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.42);
+  font-size: 1.125rem;
+  user-select: none;
+}
+
+@media (max-width: 1024px) {
+  .hero-scroll-hint {
+    display: none;
+  }
+}
+
+.ludogab-cta {
+  margin-top: 2rem;
+}
+
 /* ——— Sections ——— */
 .section {
   padding: 5rem 0;
@@ -1270,6 +1291,11 @@ body {
   max-width: 100%;
 }
 
+.contact-form-wrap {
+  width: 100%;
+  min-width: 0;
+}
+
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1489,6 +1515,7 @@ body {
     margin-left: auto;
   }
 
+  /* Contact / formulaire : une colonne au-delà du mobile large (évite débordement) */
   .contact-layout {
     grid-template-columns: 1fr;
     gap: 2rem;

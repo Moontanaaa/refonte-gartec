@@ -5,4 +5,7 @@ Desktop.ini
 # Tooling
 .gemini/
 node_modules/
+
+# React / Vite
+web/dist
 .DS_Store
